@@ -38,9 +38,9 @@ export function useOffLineDetector({
       }
     }
 
-    function fireCallback() {
+    function fireCallback(status) {
       if (typeof handleChange === "function") {
-        handleChange(); //callback
+        handleChange(status); //callback
       }
     }
 
@@ -64,12 +64,12 @@ export function useOffLineDetector({
 
     function handleNavigatorOnline() {
       setOnline(true);
-      fireCallback();
+      fireCallback(true);
     }
 
     function handleNavigatorOffline() {
       setOnline(false);
-      fireCallback();
+      fireCallback(false);
     }
 
     window.addEventListener("online", handleNavigatorOnline);

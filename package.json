@@ -1,6 +1,6 @@
 {
   "name": "@enrique.molinari/react-hook-offline-detector",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "A react custom hook that detect if you are offline",
   "license": "MIT",
   "repository": "enriquemolinari/react-hook-offlinedetector",

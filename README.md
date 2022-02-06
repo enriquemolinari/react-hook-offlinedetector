@@ -1,4 +1,4 @@
-# React Custom Hook to detect Offline
+# React Custom Hook to Detect Connectivity Status
 
 A react custom hook to detect if you are offline.
 
