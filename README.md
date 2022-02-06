@@ -28,9 +28,9 @@ function handleChange(status) {
 
 export function ReactComponent() {
   const isOnLine = useOffLineDetector(params);
-
   //...
-  //use isOnline state variable show or hide componets
+
+  //use isOnline state variable here
 }
 ```
 
